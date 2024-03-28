@@ -5,6 +5,7 @@ import { setupCounter } from './counter.ts'
 import './tutorial.ts';
 import './function.ts';
 import './alias.ts';
+import './intersections.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
