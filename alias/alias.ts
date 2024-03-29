@@ -12,7 +12,7 @@ const susan: User = {
     isActive: false,
 };
 
-function createUser(user: User): User {
+function createUser1(user: User): User {
     console.log(`Hello there ${user.name.toUpperCase()}!!!`);
     return user;
 }

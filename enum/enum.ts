@@ -11,7 +11,7 @@ type User1 = {
     contact: [string, string];
 };
 
-function createUser (user: User1): User1{
+function createUser(user: User1): User1{
     return user;
 }
 
