@@ -19,7 +19,12 @@ const randomPerson1 = (): Person2 => {
         };
 };
 
-const person3 = randomPerson1();
+//const person3 = randomPerson1();
+const person3: Person2 = {
+    name: 'anna',
+    login: ()=> console.log('study...'),
+    
+}
 
 function isStudent (person3: Person2):person3 is Student {
     return (person3 as Student).study !== undefined;
