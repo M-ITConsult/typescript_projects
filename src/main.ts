@@ -9,6 +9,11 @@ import '../intersections/intersections.ts';
 import '../interfaces/interfaces.ts';
 import '../tuples/tuples.ts';
 import '../enum/enum.ts';
+import '../unknow/unknow.ts';
+import '../modules/modules.ts';
+import '../imports/imports.ts';
+import '../guarding/guard.ts';
+import '../type_predicate/type_predicate.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
