@@ -38,6 +38,7 @@ interface Book1 {
     genre?: string;
     printAuthor (): void;
     printTitle (message: string): string;
+    printSomething: (someValue: number) => number;
 }
 
 
@@ -45,16 +46,20 @@ const deepWork: Book1 = {
     isbn: 123,
     title: 'deep work',
     author: 'cal newport',
-    printAuthor () {
-        console.log(this.author);
-        
-    },
     printTitle (message) {
         return `${this.title} ${message}`;  
         
     },
+    printSomething: function (someValue) {
+        return someValue;
+    },
+    printAuthor: () => {
+        console.log(deepWork.author);
+    }
 };
 
 deepWork.printAuthor();
+const result3 = deepWork.printSomething(84);
 const result2 = deepWork.printTitle('is awesome book');
 console.log(result2);
+console.log(result3);

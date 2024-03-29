@@ -2,10 +2,13 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './tutorial.ts';
-import './function.ts';
-import './alias.ts';
-import './intersections.ts';
+import '../tutorials/tutorial.ts';
+import '../function/function.ts';
+import '../alias/alias.ts';
+import '../intersections/intersections.ts';
+import '../interfaces/interfaces.ts';
+import '../tuples/tuples.ts';
+import '../enum/enum.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

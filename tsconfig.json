@@ -19,5 +19,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src", "interfaces/interfaces.ts", "tuples/tuples.ts", "tutorials/tutorial.ts", "intersections/intersections.ts", "function/function.ts", "alias/alias.ts"]
 }
