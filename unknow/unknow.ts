@@ -59,7 +59,7 @@ function getColorName (color: Color) {
             return 'Green';
         default:
             // at build time
-            let unexpectedColor: never = color;
+            // let unexpectedColor: never = color;
             // at runtime
             throw new Error(`Unexpected color value: ${color}`);
     }
